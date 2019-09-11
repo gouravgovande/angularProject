@@ -1,0 +1,20 @@
+
+.title{
+    text-align: center;
+    color: #6a6a9d;
+}
+.font-60{
+    font-size: 60px;
+}
+
+.text-shadow-md{
+    text-shadow: 1px 1px 5px #004f8c;
+}
+
+h1{
+    &.page-title{
+        @extend .font-60;
+        @extend .title;
+        @extend .text-shadow-md;
+    }
+}
